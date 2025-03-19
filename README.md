@@ -9,10 +9,13 @@ Erdianti Wiga Putri Andini
 
 ### Screenshot Output
 - Nomor 1
+
 ![No 1](ss-output/no-1.png)
 
 - Nomor 2
+
 ![No 2](ss-output/no-2.png)
 
 - Nomor 3
+
 ![No 3](ss-output/no-3.png)
