@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"strings"
 )
 
@@ -32,10 +34,15 @@ func isBalanced(s string) bool {
 }
 
 func main() {
-	var input string
+	// var input string
+	// fmt.Scanf("%[^\n]", &input)
+	// fmt.Scanln(&input)
 
-	fmt.Scanf("%[^\n]", &input) // baca include space sampe newline
+	scanner := bufio.NewScanner(os.Stdin)
+	scanner.Scan()
 
+	input := scanner.Text()
+	
 	if isBalanced(input) {
 		fmt.Println("YES")
 	} else {
